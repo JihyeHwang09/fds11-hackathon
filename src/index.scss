@@ -177,6 +177,9 @@
 }
 
 .startBtn {
+  display: none;
+}
+.startBtn.show {
   width: 280px;
   font-size: 4rem;
   background-color: #181818;
@@ -191,3 +194,19 @@
   border-image-slice: 1;
   border-image-width: 3px;
 }
+
+.resetBtn {
+  display: none;
+}
+.resetBtn .show {
+  width: 280px;
+  font-size: 4rem;
+  background-color: #181818;
+  color: #fff;
+  border-radius: 10px;
+  padding: 0.5rem 1.5rem;
+}
+
+// .reset.show {
+//   display: block;
+// }
