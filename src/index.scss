@@ -93,3 +93,10 @@
   border-bottom: none;
   border-right: none;
 }
+
+.reset {
+display: none;
+}
+.reset.show {
+display: inline-block;
+}
